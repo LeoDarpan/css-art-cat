@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+.container{
+    width: 200px;
+    height: 300px;
+    background-color: transparent;
+    border: 3px solid black;
+    transform: rotate(10deg);
+    padding: 20px 40px 0px 40px ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
+}
+
+.cat{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    transform: rotate(-10deg);
+}
+.face{
+    width: 100px;
+    height: 80px;
+    background-color: darkred;
+    border-radius: 30px;
+}
+
+.ear-l, .ear-r{
+    width: 0;
+    height: 0;
+    border-bottom: 30px solid darkred;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.ear-l{
+    position: relative;
+    top: -22px;
+    left: -2px;
+    transform: rotate(-25deg);
+}
+
+.ear-r{
+    position: relative;
+    top: -52px;
+    left: 70px;
+    transform: rotate(25deg);
+}
+
+.inner-1{
+    width: 0;
+    height: 0;
+    border-bottom: 30px solid black;
+    border-left: 15px solid transparent;
+    position: relative;
+    left: -15px;
+    z-index: -1;
+}
+
+.inner-2{
+    width: 0;
+    height: 0;
+    border-bottom: 30px solid black;
+    border-right: 15px solid transparent;
+    position: relative;
+    left: 0px;
+    z-index: -1;
+}
+
+.eyes{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: floralwhite;
+    position: relative;
+}
+
+.eye-l{
+    top: -45px;
+    left: 25px;
+}
+
+.eye-r{
+    top: -65px;
+    left: 55px;
+}
+
+.eye-ball{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+}
+
+.nose{
+    width: 0;
+    height: 0;
+    border-top: 8px solid darkolivegreen;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: relative;
+    top: -60px;
+    left: 43px;
+}
+.l1{
+    height: 1px;
+    width: 6px;
+    transform: rotate(40deg);
+    background-color: darkolivegreen;
+}
+.l2{
+    height: 1px;
+    width: 6px;
+    transform: rotate(-40deg);
+    background-color: darkolivegreen;
+    position: relative;
+    left: -5px;
+    top: -1px;
+}
+
+.body{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -2px;
+    left: 20px;
+    background-color: darkred;
+    border-top-right-radius: 40px;
+}
+
+.legs{
+    width: 20px;
+    height: 30px;
+    background-color: darkred;
+    border-radius: 40%;
+    position: absolute;
+    top: 160px;
+}
+
+.legs-l{
+    left: 20px;
+}
+
+.legs-r{
+    left: 50px;
+}
+
+.tail{
+    width: 50px;
+    height: 15px;
+    background-color: darkred;
+    position: relative;
+    top: -17px;
+    left: 110px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
